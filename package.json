@@ -1,0 +1,25 @@
+{
+  "name": "islandis-application-listing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "lsislandis": "./index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.5",
+    "node-fetch": "^3.3.2",
+    "open": "^9.1.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
